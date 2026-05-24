@@ -51,6 +51,16 @@
 .block__body h2{font-size:clamp(1.7rem,3.2vw,2.5rem);font-weight:400;margin-bottom:1.2rem}
 .block__body p{color:var(--ink-soft);font-size:1.06rem;line-height:1.85;max-width:64ch}
 
+/* ---------- SERVICE ROWS (servicios: alternating image + text) ---------- */
+.svc-rows{display:flex;flex-direction:column;gap:clamp(2.5rem,5vw,4.5rem)}
+.svc-row{display:grid;grid-template-columns:1fr 1fr;gap:clamp(2rem,5vw,4.5rem);align-items:center}
+.svc-row__media .frame{aspect-ratio:4/3}
+.svc-row--flip .svc-row__media{order:2}
+.svc-row__body .block__index{display:block;font-family:var(--serif);font-size:2.2rem;font-weight:300;color:var(--accent);line-height:1;margin-bottom:.7rem}
+.svc-row__body h2{font-size:clamp(1.7rem,3vw,2.4rem);font-weight:400;margin-bottom:1rem}
+.svc-row__body p{color:var(--ink-soft);font-size:1.04rem;line-height:1.8;max-width:46ch}
+@media(max-width:820px){.svc-row{grid-template-columns:1fr;gap:1.4rem}.svc-row__media{order:-1!important}}
+
 /* ---------- ABOUT SPLIT (quiénes somos) ---------- */
 .about{display:grid;grid-template-columns:.92fr 1.08fr;gap:clamp(2.5rem,6vw,6rem);align-items:center}
 .about__media{position:relative}
