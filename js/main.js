@@ -121,7 +121,7 @@
 
       /* quiénes somos */
       q_title: 'Quiénes Somos',
-      q_bio: 'Francisco Quintana Calderón lleva en el mundo del arte desde 1985, empezó trabajando en la galería Quintana junto a sus hermanos, comercializando importantes artistas como Fernando Botero, Enrique Grau y Antonio Barrera. Además, teniendo participación en importantes ferias a nivel mundial como ARCO Madrid, Art Miami, FIAC Paris, entre otras. En el año 2000, decide independizarse y fundar la galería Francisco Quintana Arte enfocada en arte latinoamericano contemporáneo, comercializando arte en distintos mercados y para distintos públicos. Dada su experiencia en el sector también realiza curadurías y avalúos de arte.',
+      q_bio: 'Francisco Quintana Calderón se dedica al arte desde 1985. Comenzó en la galería Quintana, junto a sus hermanos, comercializando a grandes maestros como Fernando Botero, Enrique Grau y Antonio Barrera, y participando en ferias internacionales de primer nivel como ARCO Madrid, Art Miami y FIAC París. En el año 2000 funda su propia galería, Francisco Quintana Arte, enfocada en el arte latinoamericano contemporáneo, con la que comercializa obra para distintos mercados y públicos. Su trayectoria lo respalda también como curador y avaluador de arte.',
       q_media: 'Media',
 
       /* representación */
@@ -186,7 +186,7 @@
       cur_clients: 'Clients — Participations',
 
       q_title: 'About us',
-      q_bio: 'Francisco Quintana Calderón has been in the art world since 1985, he began working in Quintana gallery with his brothers, commercializing important artists such as Fernando Botero, Enrique Grau and Antonio Barrera. In addition, taking part in important worldwide fairs such as ARCO Madrid, Art Miami, FIAC Paris, among others. In 2000, he decided to become independent and fund Francisco Quintana Art gallery focused on contemporary Latin American art, commercializing art in different markets and for different audiences. Given his experience in the sector, he also conducts curatorships and art appraisals.',
+      q_bio: 'Francisco Quintana Calderón has devoted himself to art since 1985. He began at the Quintana gallery, alongside his brothers, dealing in major masters such as Fernando Botero, Enrique Grau and Antonio Barrera, and taking part in leading international fairs such as ARCO Madrid, Art Miami and FIAC Paris. In 2000 he founded his own gallery, Francisco Quintana Arte, focused on contemporary Latin-American art, trading works across different markets and audiences. His experience also supports his work as an art curator and appraiser.',
       q_media: 'Media',
 
       rep_title: 'Representation',
