@@ -62,7 +62,7 @@
   padding:.16em .14em 0 0;color:var(--accent);font-weight:400}
 
 /* ---------- ARTISTS WALL (commercialization / representation) ---------- */
-.artists__grid{columns:3;column-gap:clamp(2rem,5vw,5rem)}
+.artists__grid{columns:2;column-gap:clamp(2rem,4vw,4rem);max-width:700px}
 .artists__grid a{transition:color .25s var(--ease)}
 .artists__grid a:hover{color:var(--accent)}
 .com-intro{display:grid;grid-template-columns:1.15fr .85fr;gap:clamp(2rem,5vw,5rem);align-items:center}
