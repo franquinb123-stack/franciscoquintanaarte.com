@@ -112,11 +112,11 @@
       /* curadurías */
       cur_title: 'Servicios',
       cur_h1: 'Curadurías',
-      cur_p1: 'Exposición, valuación, manejo, preservación y administración de bienes artísticos para crear una conexión entre las piezas para crear algo más grande que la suma de las piezas individuales. La conexión de las piezas con un contexto crea una historia, que es como la gente al final va a recordar el conjunto.',
+      cur_p1: 'Concebimos y producimos exposiciones que van más allá de reunir obras: las conectamos con un contexto y un relato, de modo que el conjunto signifique más que la suma de sus piezas y permanezca en la memoria del público.',
       cur_h2: 'Avalúos',
-      cur_p2: 'Ya sea con fines de seguro o con fines comerciales, conozca el valor de sus bienes artísticos. Un avalúo le asegura una venta o compra justa, si piensa heredar su colección o recibió como herencia obras de arte, es necesario saber el monto al que asciende la adquisición cualquiera que sea el destino de las obras.',
+      cur_p2: 'Determinamos el valor comercial de tus bienes artísticos —con fines de seguro, venta, compra o herencia—. Un avalúo profesional te da certeza para tomar decisiones justas sobre una obra o una colección completa.',
       cur_h3: 'Otros Servicios',
-      cur_p3: 'También organizamos otro tipo de eventos como lo son subastas de arte. Así mismo, organizamos exposiciones propias y participamos en ferias internacionales de arte.',
+      cur_p3: 'Organizamos subastas y exposiciones propias, y representamos a la galería en ferias internacionales de arte.',
       cur_clients: 'Clientes — Participaciones',
 
       /* quiénes somos */
@@ -178,11 +178,11 @@
 
       cur_title: 'Services',
       cur_h1: 'Curatorships',
-      cur_p1: 'Exhibition, valuation, management, preservation and administration of artistic assets to create a connection between the pieces, to produce something greater than the sum of the individual pieces. The connection of the pieces with a context creates a story, which is how people in the end will remember the set.',
+      cur_p1: 'We conceive and produce exhibitions that go beyond gathering works: we connect them to a context and a narrative, so the whole means more than the sum of its parts and stays in the memory of those who see it.',
       cur_h2: 'Appraisals',
-      cur_p2: 'Whether for insurance or commercial purposes, know the value of your artistic assets. An appraisal assures you of a fair sale or purchase, if you plan to inherit your collection or received works of art as inheritance, it is necessary to know the amount of the acquisition regardless of the destination of the works.',
+      cur_p2: 'We establish the commercial value of your artistic assets — for insurance, sale, purchase or inheritance. A professional appraisal gives you the certainty to make fair decisions about a single piece or an entire collection.',
       cur_h3: 'Other Services',
-      cur_p3: 'We also organize other types of events such as art auctions. As well, we organize our own exhibitions and participate in international art fairs.',
+      cur_p3: 'We organize auctions and our own exhibitions, and represent the gallery at international art fairs.',
       cur_clients: 'Clients — Participations',
 
       q_title: 'About us',
