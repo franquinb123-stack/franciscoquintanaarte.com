@@ -97,6 +97,12 @@
 .gallery--feature .span4{grid-column:span 4}.gallery--feature .tall{aspect-ratio:3/4}
 .gallery__item--portrait{aspect-ratio:3/4}
 
+/* ---------- MEDIA ROW (quiénes somos: photos + video, equal height) ---------- */
+.media-row{display:grid;grid-template-columns:repeat(3,1fr);gap:clamp(.8rem,1.5vw,1.4rem)}
+.media-row__item{height:clamp(170px,20vw,250px);overflow:hidden;background:var(--paper-3);box-shadow:var(--shadow)}
+.media-row__item img,.media-row__item iframe{width:100%;height:100%;object-fit:cover;border:0;display:block}
+@media(max-width:760px){.media-row{grid-template-columns:1fr}.media-row__item{height:clamp(200px,56vw,300px)}}
+
 /* hero artwork feature (commercialization) */
 .spotlight{display:grid;grid-template-columns:1.1fr .9fr;gap:clamp(2rem,5vw,5rem);align-items:center}
 .spotlight .frame{aspect-ratio:3/2}
