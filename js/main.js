@@ -116,7 +116,7 @@
       cur_h2: 'Avalúos',
       cur_p2: 'Determinamos el valor comercial de tus bienes artísticos —con fines de seguro, venta, compra o herencia—. Un avalúo profesional te da certeza para tomar decisiones justas sobre una obra o una colección completa.',
       cur_h3: 'Otros Servicios',
-      cur_p3: 'Organizamos subastas y exposiciones propias, y representamos a la galería en ferias internacionales de arte.',
+      cur_p3: 'Organizamos subastas y exposiciones propias, y representamos a la galería en ferias internacionales de arte y subastas.',
       cur_clients: 'Clientes — Participaciones',
 
       /* quiénes somos */
@@ -182,7 +182,7 @@
       cur_h2: 'Appraisals',
       cur_p2: 'We establish the commercial value of your artistic assets — for insurance, sale, purchase or inheritance. A professional appraisal gives you the certainty to make fair decisions about a single piece or an entire collection.',
       cur_h3: 'Other Services',
-      cur_p3: 'We organize auctions and our own exhibitions, and represent the gallery at international art fairs.',
+      cur_p3: 'We organize auctions and our own exhibitions, and represent the gallery at international art fairs and auctions.',
       cur_clients: 'Clients — Participations',
 
       q_title: 'About us',
