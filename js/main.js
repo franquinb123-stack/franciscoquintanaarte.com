@@ -117,7 +117,7 @@
       cur_p2: 'Determinamos el valor comercial de tus bienes artísticos —con fines de seguro, venta, compra o herencia—. Un avalúo profesional te da certeza para tomar decisiones justas sobre una obra o una colección completa.',
       cur_h3: 'Otros Servicios',
       cur_p3: 'Organizamos subastas y exposiciones propias, y representamos a la galería en ferias internacionales de arte y subastas.',
-      cur_clients: 'Clientes — Participaciones',
+      cur_clients: 'Participaciones — Clientes',
 
       /* quiénes somos */
       q_title: 'Quiénes Somos',
@@ -183,7 +183,7 @@
       cur_p2: 'We establish the commercial value of your artistic assets — for insurance, sale, purchase or inheritance. A professional appraisal gives you the certainty to make fair decisions about a single piece or an entire collection.',
       cur_h3: 'Other Services',
       cur_p3: 'We organize auctions and our own exhibitions, and represent the gallery at international art fairs and auctions.',
-      cur_clients: 'Clients — Participations',
+      cur_clients: 'Participations — Clients',
 
       q_title: 'About us',
       q_bio: 'Francisco Quintana Calderón has devoted himself to art since 1985. He began at the Quintana gallery, alongside his brothers, dealing in major masters such as Fernando Botero, Enrique Grau and Antonio Barrera, and taking part in leading international fairs such as ARCO Madrid, Art Miami and FIAC Paris. In 2000 he founded his own gallery, Francisco Quintana Arte, focused on contemporary Latin-American art, trading works across different markets and audiences. His experience also supports his work as an art curator and appraiser.',
