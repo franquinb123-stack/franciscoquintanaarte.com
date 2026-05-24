@@ -112,7 +112,7 @@
       /* curadurías */
       cur_title: 'Servicios',
       cur_h1: 'Curadurías',
-      cur_p1: 'Concebimos y producimos exposiciones que van más allá de reunir obras: las conectamos con un contexto y un relato, de modo que el conjunto signifique más que la suma de sus piezas y permanezca en la memoria del público.',
+      cur_p1: 'Curamos y producimos exposiciones de principio a fin: conectamos las obras con un relato que le da sentido al conjunto.',
       cur_h2: 'Avalúos',
       cur_p2: 'Determinamos el valor comercial de tus bienes artísticos —con fines de seguro, venta, compra o herencia—. Un avalúo profesional te da certeza para tomar decisiones justas sobre una obra o una colección completa.',
       cur_h3: 'Otros Servicios',
@@ -178,7 +178,7 @@
 
       cur_title: 'Services',
       cur_h1: 'Curatorships',
-      cur_p1: 'We conceive and produce exhibitions that go beyond gathering works: we connect them to a context and a narrative, so the whole means more than the sum of its parts and stays in the memory of those who see it.',
+      cur_p1: 'We curate and produce exhibitions from start to finish, connecting the works with a narrative that gives meaning to the whole.',
       cur_h2: 'Appraisals',
       cur_p2: 'We establish the commercial value of your artistic assets — for insurance, sale, purchase or inheritance. A professional appraisal gives you the certainty to make fair decisions about a single piece or an entire collection.',
       cur_h3: 'Other Services',
