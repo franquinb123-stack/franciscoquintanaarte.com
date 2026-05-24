@@ -187,16 +187,16 @@ body.menu-open .burger span:nth-child(3){bottom:50%;transform:translateY(50%) ro
 /* =====================================================================
    CONTACT
    ===================================================================== */
-.contact{background:var(--paper-2);padding-top:clamp(1.5rem,3vw,2.5rem)}
+.contact{background:var(--paper-2);padding-top:clamp(1.5rem,3vw,2.5rem);padding-bottom:clamp(1.5rem,3vw,2.5rem)}
 .contact__head{text-align:center;margin-bottom:clamp(1.5rem,3vw,2.5rem)}
 .contact__head .overline{display:block;margin-bottom:1.4rem}
 .contact__grid{display:grid;grid-template-columns:.85fr 1.15fr;gap:clamp(2.5rem,6vw,6rem);align-items:start}
 
 .info__row{padding:1.6rem 0;border-top:1px solid var(--line)}
-.info__cols{display:grid;grid-template-columns:1fr 1fr;gap:clamp(1.2rem,3vw,2.5rem)}
+.info__cols{display:flex;justify-content:space-between;gap:2.5rem;align-items:flex-start}
 .info__cols .info__row{border-bottom:1px solid var(--line)}
-.info__cols .info__val{overflow-wrap:anywhere}
-@media(max-width:560px){.info__cols{grid-template-columns:1fr;gap:0}}
+.info__cols .info__row:last-child{text-align:right}
+@media(max-width:560px){.info__cols{flex-direction:column;gap:0}.info__cols .info__row:last-child{text-align:left}}
 .info__row:last-of-type{border-bottom:1px solid var(--line)}
 .info__label{font-size:.68rem;letter-spacing:.28em;text-transform:uppercase;color:var(--muted);font-weight:600;margin-bottom:.6rem}
 .info__val{font-family:var(--serif);font-size:clamp(1.2rem,1.9vw,1.55rem);font-weight:400;line-height:1.35}
