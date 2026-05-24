@@ -29,12 +29,12 @@
 .panel--right .panel__content .link-arrow{justify-content:flex-end}
 .panel__num{display:block;font-family:var(--serif);font-size:1rem;letter-spacing:.25em;opacity:.75;margin-bottom:.8rem}
 .panel__kicker{display:block;font-size:.74rem;letter-spacing:.34em;text-transform:uppercase;
-  font-weight:600;color:#e6a079;margin-bottom:1rem}
+  font-weight:600;color:#ff4136;margin-bottom:1rem}
 .panel__title{font-family:var(--serif);font-weight:300;line-height:1;
   font-size:clamp(2.6rem,6.5vw,5.4rem);margin-bottom:1.3rem;letter-spacing:.01em}
 .panel__text{color:rgba(255,255,255,.86);font-size:clamp(1rem,1.4vw,1.12rem);line-height:1.74;margin-bottom:2rem}
 .panel .link-arrow{color:var(--white)}
-.panel .link-arrow:hover{color:#e6a079}
+.panel .link-arrow:hover{color:#ff4136}
 .panel:hover .panel__bg img{animation-play-state:paused}
 
 /* =====================================================================
@@ -48,12 +48,12 @@
   background:linear-gradient(0deg,rgba(13,11,8,.78) 0%,rgba(13,11,8,.12) 55%,rgba(13,11,8,.2) 100%)}
 .pagehero__inner{position:relative;z-index:2;width:100%;max-width:var(--maxw);margin-inline:auto;
   padding:0 var(--gutter) clamp(2.6rem,5vw,4.2rem)}
-.pagehero .overline{color:#e6a079;display:block;margin-bottom:1rem}
+.pagehero .overline{color:#ff4136;display:block;margin-bottom:1rem}
 .pagehero__title{font-family:var(--serif);font-weight:300;color:var(--white);
   font-size:clamp(2.8rem,8vw,6rem);line-height:1;letter-spacing:.01em}
 .pagehero__lead{margin-top:1.4rem;max-width:60ch;color:rgba(255,255,255,.88);
   font-size:clamp(1.05rem,1.6vw,1.28rem);line-height:1.7}
-.pagehero__lead a{color:#e6a079;border-bottom:1px solid rgba(230,160,121,.5)}
+.pagehero__lead a{color:#ff4136;border-bottom:1px solid rgba(255,65,54,.5)}
 
 /* =====================================================================
    BIGGER, MORE DYNAMIC GALLERIES

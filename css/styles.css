@@ -13,8 +13,8 @@
   --muted:#867c6e;
   --line:rgba(21,18,13,.15);
   --line-soft:rgba(21,18,13,.08);
-  --accent:#9c4a2b;
-  --accent-deep:#7d3a20;
+  --accent:#d61f1f;
+  --accent-deep:#b01818;
   --white:#fcfaf5;
 
   --serif:"Cormorant Garamond",Georgia,"Times New Roman",serif;
@@ -230,7 +230,7 @@ body.menu-open .burger span:nth-child(3){bottom:50%;transform:translateY(50%) ro
 .footer__addr{color:rgba(243,239,231,.72);font-size:.92rem;line-height:1.9;max-width:32ch}
 .footer__links{display:flex;flex-direction:column;gap:.75rem;text-align:right}
 .footer__links a{font-size:.8rem;letter-spacing:.14em;text-transform:uppercase;color:rgba(243,239,231,.8);transition:color .3s var(--ease)}
-.footer__links a:hover{color:#e0a07f}
+.footer__links a:hover{color:#ff4136}
 .footer__bottom{margin-top:clamp(2.6rem,5vw,4rem);padding-top:1.9rem;border-top:1px solid rgba(243,239,231,.16);
   display:flex;justify-content:space-between;gap:1rem;flex-wrap:wrap;
   font-size:.72rem;letter-spacing:.14em;color:rgba(243,239,231,.5);text-transform:uppercase}
