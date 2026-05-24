@@ -91,8 +91,8 @@
       svc3_text: 'Creemos en los nuevos talentos, en jóvenes apasionados que se quieran sumergir en una vida llena de arte. Además, que ya tengan un sello personal que haga su obra diferenciable y unica.',
       more: 'Más información',
 
-      contact_overline: 'Contáctenos',
-      contact_title: 'Contáctenos',
+      contact_overline: 'Contáctanos',
+      contact_title: 'Contáctanos',
       label_addr: 'Dirección',
       label_email: 'Correo',
       label_phone: 'Teléfono',
