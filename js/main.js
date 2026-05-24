@@ -84,11 +84,11 @@
       services_label: 'Servicios',
 
       svc1_title: 'Comercialización',
-      svc1_text: 'Compra y venta de arte para distintos públicos y mercados. Desde jóvenes artistas con un gran potencial hasta artistas posicionados en el mercado. También, te ayudamos a vender tus obras. Para ver el catálogo diríjase a más información.',
+      svc1_text: 'Compra y venta de arte para distintos públicos y mercados, desde jóvenes talentos con gran proyección hasta artistas consolidados. También te acompañamos en la venta de tu colección.',
       svc2_title: 'Avalúos',
-      svc2_text: 'Organización y desarrollo de toda la producción de exposiciones de arte y subastas. Además, avaluos para saber la estimación del valor comercial de piezas de arte o colecciones.',
+      svc2_text: 'Producción integral de exposiciones y subastas de arte, de principio a fin. Realizamos avalúos para conocer el valor comercial de piezas individuales o colecciones completas.',
       svc3_title: 'Representación',
-      svc3_text: 'Creemos en los nuevos talentos, en jóvenes apasionados que se quieran sumergir en una vida llena de arte. Además, que ya tengan un sello personal que haga su obra diferenciable y unica.',
+      svc3_text: 'Creemos en los nuevos talentos: jóvenes apasionados por el arte, con un sello propio que hace su obra única e inconfundible. Los acompañamos en cada etapa de su carrera.',
       more: 'Más información',
 
       contact_overline: 'Contáctanos',
@@ -151,11 +151,11 @@
       services_label: 'Services',
 
       svc1_title: 'Commercialization',
-      svc1_text: 'Buying and selling art for different audiences and markets. From young artists with great potential to artists positioned in the market. Also, we help you selling your artworks. To see the catalogue go to more information.',
+      svc1_text: 'Buying and selling art across audiences and markets — from emerging talents with great promise to established names. We also guide you through selling your own collection.',
       svc2_title: 'Appraisals',
-      svc2_text: 'Organization and development of all production of art exhibitions and auctions. In addition, appraisals to know the estimate of the commercial value of art pieces or collections.',
+      svc2_text: 'End-to-end production of art exhibitions and auctions. We also appraise individual pieces and entire collections to establish their commercial value.',
       svc3_title: 'Representation',
-      svc3_text: 'We believe in new talents, in passionate young people who want to immerse themselves in a life full of art. In addition, artist that have a personal aspect that makes their work differentiable and unique.',
+      svc3_text: 'We believe in new talent — passionate young artists with a personal voice that makes their work unmistakably their own. We stand by them at every stage of their careers.',
       more: 'More information',
 
       contact_overline: 'Contact us',
