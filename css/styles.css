@@ -126,10 +126,8 @@ body.menu-open .nav__link{color:var(--ink-soft)}
 body.menu-open .burger span{background:var(--ink)}
 
 .brand{display:block;line-height:1.15}
-.brand__name{display:block;font-size:clamp(.95rem,1.4vw,1.12rem);letter-spacing:.28em;
-  text-transform:uppercase;font-weight:600;line-height:1.25}
-.brand__line2{display:block;font-size:clamp(.95rem,1.4vw,1.12rem);letter-spacing:.28em;
-  text-transform:uppercase;font-weight:600;line-height:1.25}
+.brand__name,.brand__line2{display:block;font-size:clamp(.95rem,1.4vw,1.14rem);letter-spacing:.34em;
+  text-transform:uppercase;font-weight:600;line-height:1.32}
 .brand__accent{color:var(--accent)}
 
 .nav{display:flex;align-items:center;gap:clamp(1.4rem,2.5vw,2.7rem)}
