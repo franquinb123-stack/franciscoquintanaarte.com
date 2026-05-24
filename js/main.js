@@ -84,7 +84,7 @@
       services_label: 'Servicios',
 
       svc1_title: 'Comercialización',
-      svc1_text: 'Compra y venta de arte para distintos públicos y mercados, desde jóvenes talentos con gran proyección hasta artistas consolidados. También te acompañamos en la venta de tu colección.',
+      svc1_text: 'Compra y venta de arte para distintos públicos y mercados, desde jóvenes talentos con gran proyección hasta artistas consolidados. También te acompañamos y asesoramos en la compra y venta de tu colección.',
       svc2_title: 'Servicios',
       svc2_text: 'Producción integral de exposiciones y subastas de arte, de principio a fin. Realizamos avalúos para conocer el valor comercial de piezas individuales o colecciones completas.',
       svc3_title: 'Representación',
@@ -151,7 +151,7 @@
       services_label: 'Services',
 
       svc1_title: 'Commercialization',
-      svc1_text: 'Buying and selling art across audiences and markets — from emerging talents with great promise to established names. We also guide you through selling your own collection.',
+      svc1_text: 'Buying and selling art across audiences and markets — from emerging talents with great promise to established names. We also guide and advise you on buying and selling your collection.',
       svc2_title: 'Services',
       svc2_text: 'End-to-end production of art exhibitions and auctions. We also appraise individual pieces and entire collections to establish their commercial value.',
       svc3_title: 'Representation',
