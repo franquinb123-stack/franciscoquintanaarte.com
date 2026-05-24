@@ -112,8 +112,9 @@ h1,h2,h3{font-family:var(--serif);font-weight:400;line-height:1.03;letter-spacin
 .header.scrolled .header__bar{height:clamp(64px,7vw,80px)}
 
 /* light header while transparent over a hero image */
-.header:not(.scrolled) .brand__name{color:var(--white)}
-.header:not(.scrolled) .brand__sub{color:rgba(255,255,255,.72)}
+.header:not(.scrolled) .brand__name,
+.header:not(.scrolled) .brand__line2{color:var(--white)}
+.header:not(.scrolled) .brand__accent{color:#e6a079}
 .header:not(.scrolled) .nav__link{color:rgba(255,255,255,.85)}
 .header:not(.scrolled) .nav__link:hover{color:#fff}
 .header:not(.scrolled) .lang button{color:rgba(255,255,255,.6)}
@@ -124,10 +125,12 @@ h1,h2,h3{font-family:var(--serif);font-weight:400;line-height:1.03;letter-spacin
 body.menu-open .nav__link{color:var(--ink-soft)}
 body.menu-open .burger span{background:var(--ink)}
 
-.brand{display:block;line-height:1}
-.brand__name{font-size:clamp(.95rem,1.4vw,1.14rem);letter-spacing:.34em;text-transform:uppercase;font-weight:600}
-.brand__sub{display:block;margin-top:.45em;font-size:.6rem;letter-spacing:.52em;
-  text-transform:uppercase;color:var(--muted);font-weight:600;padding-left:.05em}
+.brand{display:block;line-height:1.15}
+.brand__name{display:block;font-size:clamp(.95rem,1.4vw,1.12rem);letter-spacing:.28em;
+  text-transform:uppercase;font-weight:600;line-height:1.25}
+.brand__line2{display:block;font-size:clamp(.95rem,1.4vw,1.12rem);letter-spacing:.28em;
+  text-transform:uppercase;font-weight:600;line-height:1.25}
+.brand__accent{color:var(--accent)}
 
 .nav{display:flex;align-items:center;gap:clamp(1.4rem,2.5vw,2.7rem)}
 .nav__link{font-size:.78rem;letter-spacing:.16em;text-transform:uppercase;font-weight:500;
@@ -224,8 +227,8 @@ body.menu-open .burger span:nth-child(3){bottom:50%;transform:translateY(50%) ro
    ===================================================================== */
 .footer{background:var(--ink);color:var(--paper);padding-block:clamp(3.8rem,6vw,5.5rem)}
 .footer__top{display:flex;justify-content:space-between;align-items:flex-start;gap:2.5rem;flex-wrap:wrap}
-.footer .brand__name{color:var(--paper)}
-.footer .brand__sub{color:rgba(243,239,231,.55)}
+.footer .brand__name,.footer .brand__line2{color:var(--paper)}
+.footer .brand__accent{color:#e6a079}
 .footer__addr{color:rgba(243,239,231,.72);font-size:.92rem;line-height:1.9;max-width:32ch}
 .footer__links{display:flex;flex-direction:column;gap:.75rem;text-align:right}
 .footer__links a{font-size:.8rem;letter-spacing:.14em;text-transform:uppercase;color:rgba(243,239,231,.8);transition:color .3s var(--ease)}
