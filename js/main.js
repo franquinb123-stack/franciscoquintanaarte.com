@@ -4,7 +4,7 @@
 
   /* ---------- header background on scroll ---------- */
   var header = document.getElementById('header');
-  if (header && !document.body.classList.contains('page-inner')) {
+  if (header) {
     var onScroll = function () { header.classList.toggle('scrolled', window.scrollY > 40); };
     window.addEventListener('scroll', onScroll, { passive: true });
     onScroll();

@@ -11,8 +11,9 @@
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="css/pages.css">
+  <link rel="stylesheet" href="css/visual.css">
 </head>
-<body class="page-inner">
+<body>
   <header class="header" id="header">
     <div class="wrap header__bar">
       <a href="index.html" class="brand" aria-label="Francisco Quintana Arte">
@@ -34,11 +35,14 @@
       </div>
     </div>
   </header>
-  <main>
-    <section class="pagehead">
-      <div class="wrap">
-        <span class="overline reveal" data-i18n="nav_quienes">Quiénes Somos</span>
-        <h1 class="pagehead__title reveal" data-d="1" data-i18n="q_title">Quiénes Somos</h1>
+  <main id="top">
+    <section class="pagehero">
+      <div class="pagehero__bg"><img src="assets/quienes/media1.jpg" alt="Sala de la galería" fetchpriority="high"></div>
+      <div class="pagehero__scrim"></div>
+      <div class="pagehero__inner">
+        <span class="overline" data-i18n="nav_quienes">Quiénes Somos</span>
+        <h1 class="pagehero__title" data-i18n="q_title">Quiénes Somos</h1>
+        
       </div>
     </section>
 
@@ -57,14 +61,11 @@
     </section>
 
     <section class="section logowall" style="padding-top:0">
-      <div class="wrap">
-        <div class="section__title reveal"><span class="overline" data-i18n="q_media">Media</span></div>
-        <div class="gallery gallery--4 reveal" data-d="1">
-          <div class="gallery__item gallery__item--portrait"><img src="assets/quienes/media1.jpg" alt="Prensa / media" loading="lazy"></div>
-          <div class="gallery__item gallery__item--portrait"><img src="assets/quienes/media3.jpg" alt="Prensa / media" loading="lazy"></div>
-          <div class="gallery__item gallery__item--portrait"><img src="assets/quienes/media4.jpg" alt="Prensa / media" loading="lazy"></div>
-          <div class="gallery__item gallery__item--portrait"><img src="assets/quienes/media2.jpg" alt="Prensa / media" loading="lazy"></div>
-        </div>
+      <div class="wrap"><div class="section__title reveal"><span class="overline" data-i18n="q_media">Media</span></div></div>
+      <div class="bleed mosaic reveal" data-d="1">
+        <div class="gallery__item m-2 m-tall"><img src="assets/quienes/media2.jpg" alt="Prensa / media" loading="lazy"></div>
+        <div class="gallery__item m-2 m-sq"><img src="assets/quienes/media3.jpg" alt="Prensa / media" loading="lazy"></div>
+        <div class="gallery__item m-2 m-sq"><img src="assets/quienes/media4.jpg" alt="Prensa / media" loading="lazy"></div>
       </div>
     </section>
   </main>

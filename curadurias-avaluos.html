@@ -11,8 +11,9 @@
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="css/pages.css">
+  <link rel="stylesheet" href="css/visual.css">
 </head>
-<body class="page-inner">
+<body>
   <header class="header" id="header">
     <div class="wrap header__bar">
       <a href="index.html" class="brand" aria-label="Francisco Quintana Arte">
@@ -34,11 +35,14 @@
       </div>
     </div>
   </header>
-  <main>
-    <section class="pagehead">
-      <div class="wrap">
-        <span class="overline reveal" data-i18n="nav_curadurias">Curadurías &amp; Avalúos</span>
-        <h1 class="pagehead__title reveal" data-d="1" data-i18n="cur_title">Curadurías &amp; Avalúos</h1>
+  <main id="top">
+    <section class="pagehero">
+      <div class="pagehero__bg"><img src="assets/extra.jpg" alt="Inauguración de exposición" fetchpriority="high"></div>
+      <div class="pagehero__scrim"></div>
+      <div class="pagehero__inner">
+        <span class="overline" data-i18n="nav_curadurias">Curadurías &amp; Avalúos</span>
+        <h1 class="pagehero__title" data-i18n="cur_title">Curadurías &amp; Avalúos</h1>
+        
       </div>
     </section>
 
@@ -60,12 +64,10 @@
     </section>
 
     <section class="section" style="padding-top:0">
-      <div class="wrap">
-        <div class="gallery gallery--3 reveal">
-          <div class="gallery__item"><img src="assets/curadurias/cur3.jpg" alt="Exposición / curaduría" loading="lazy"></div>
-          <div class="gallery__item"><img src="assets/curadurias/cur2.jpg" alt="Exposición / curaduría" loading="lazy"></div>
-          <div class="gallery__item"><img src="assets/curadurias/cur1.jpg" alt="Exposición / curaduría" loading="lazy"></div>
-        </div>
+      <div class="bleed mosaic reveal">
+        <div class="gallery__item m-4 m-wide"><img src="assets/curadurias/cur3.jpg" alt="Feria de arte" loading="lazy"></div>
+        <div class="gallery__item m-2 m-tall"><img src="assets/curadurias/cur2.jpg" alt="En la galería" loading="lazy"></div>
+        <div class="gallery__item m-6 m-wide"><img src="assets/curadurias/cur1.jpg" alt="Sala de exposición" loading="lazy"></div>
       </div>
     </section>
 

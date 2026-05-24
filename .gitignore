@@ -25,3 +25,6 @@ pg_*.png
 # more local artifacts
 shotcur.js
 contact_sheet.png
+
+harvest.js
+harvest.json

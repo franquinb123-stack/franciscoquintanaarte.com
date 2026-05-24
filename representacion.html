@@ -11,8 +11,9 @@
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="css/pages.css">
+  <link rel="stylesheet" href="css/visual.css">
 </head>
-<body class="page-inner">
+<body>
   <header class="header" id="header">
     <div class="wrap header__bar">
       <a href="index.html" class="brand" aria-label="Francisco Quintana Arte">
@@ -34,21 +35,20 @@
       </div>
     </div>
   </header>
-  <main>
-    <section class="pagehead">
-      <div class="wrap">
-        <span class="overline reveal" data-i18n="nav_representacion">Representación</span>
-        <h1 class="pagehead__title reveal" data-d="1" data-i18n="rep_title">Representación</h1>
-        <p class="pagehead__lead reveal" data-d="2" data-i18n="rep_intro">Francisco Quintana Arte cree en los nuevos talentos, en jóvenes apasionados por el arte con un gran potencial y con técnicas innovadoras que hagan destacar su obra. Si estás interesado en mostrarnos tu obra ponte en contacto con nosotros.</p>
+  <main id="top">
+    <section class="pagehero">
+      <div class="pagehero__bg"><img src="assets/representacion/rep2.png" alt="Obra representada" fetchpriority="high"></div>
+      <div class="pagehero__scrim"></div>
+      <div class="pagehero__inner">
+        <span class="overline" data-i18n="nav_representacion">Representación</span>
+        <h1 class="pagehero__title" data-i18n="rep_title">Representación</h1>
+        <p class="pagehero__lead" data-i18n="rep_intro">Francisco Quintana Arte cree en los nuevos talentos, en jóvenes apasionados por el arte con un gran potencial y con técnicas innovadoras que hagan destacar su obra. Si estás interesado en mostrarnos tu obra ponte en contacto con nosotros.</p>
       </div>
     </section>
 
     <section class="section" style="padding-bottom:0">
       <div class="wrap">
-        <div class="gallery gallery--feature reveal">
-          <div class="gallery__item span3"><img src="assets/representacion/rep1.jpg" alt="Obra representada" loading="lazy"></div>
-          <div class="gallery__item span3"><img src="assets/representacion/rep2.png" alt="Obra representada" loading="lazy"></div>
-        </div>
+        <div class="frame reveal" style="aspect-ratio:16/10"><img src="assets/representacion/rep1.jpg" alt="Obra representada" loading="lazy"></div>
       </div>
     </section>
 

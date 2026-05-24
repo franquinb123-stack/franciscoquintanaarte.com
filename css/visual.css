@@ -1,0 +1,80 @@
+/* =====================================================================
+   Francisco Quintana Arte — immersive / image-forward components (v3)
+   loads after styles.css + pages.css
+   ===================================================================== */
+
+/* keep header text legible: top darkening on every hero image */
+.hero__scrim::before,.panel__scrim::before,.pagehero__scrim::before{
+  content:"";position:absolute;inset:0 0 auto 0;height:34%;
+  background:linear-gradient(180deg,rgba(13,11,8,.5),rgba(13,11,8,0))}
+
+/* =====================================================================
+   FULL-BLEED SERVICE PANELS (home)
+   ===================================================================== */
+.panel{position:relative;min-height:92vh;display:flex;align-items:flex-end;overflow:hidden;color:var(--white)}
+.panel__bg{position:absolute;inset:0;z-index:0}
+.panel__bg img{width:100%;height:100%;object-fit:cover;will-change:transform;
+  animation:kenburns 22s ease-out both}
+.panel:nth-child(even) .panel__bg img{animation-direction:alternate-reverse}
+.panel__scrim{position:absolute;inset:0;z-index:1;
+  background:linear-gradient(90deg,rgba(13,11,8,.82) 0%,rgba(13,11,8,.42) 40%,rgba(13,11,8,0) 72%),
+             linear-gradient(0deg,rgba(13,11,8,.55),rgba(13,11,8,0) 48%)}
+.panel--right .panel__scrim{
+  background:linear-gradient(270deg,rgba(13,11,8,.82) 0%,rgba(13,11,8,.42) 40%,rgba(13,11,8,0) 72%),
+             linear-gradient(0deg,rgba(13,11,8,.55),rgba(13,11,8,0) 48%)}
+.panel__inner{position:relative;z-index:2;width:100%;max-width:var(--maxw);margin-inline:auto;
+  padding:0 var(--gutter) clamp(3rem,7vw,6.5rem)}
+.panel__content{max-width:42ch}
+.panel--right .panel__content{margin-left:auto;text-align:right}
+.panel--right .panel__content .link-arrow{justify-content:flex-end}
+.panel__num{display:block;font-family:var(--serif);font-size:1rem;letter-spacing:.25em;opacity:.75;margin-bottom:.8rem}
+.panel__kicker{display:block;font-size:.74rem;letter-spacing:.34em;text-transform:uppercase;
+  font-weight:600;color:#e6a079;margin-bottom:1rem}
+.panel__title{font-family:var(--serif);font-weight:300;line-height:1;
+  font-size:clamp(2.6rem,6.5vw,5.4rem);margin-bottom:1.3rem;letter-spacing:.01em}
+.panel__text{color:rgba(255,255,255,.86);font-size:clamp(1rem,1.4vw,1.12rem);line-height:1.74;margin-bottom:2rem}
+.panel .link-arrow{color:var(--white)}
+.panel .link-arrow:hover{color:#e6a079}
+.panel:hover .panel__bg img{animation-play-state:paused}
+
+/* =====================================================================
+   PAGE HERO (inner pages — big image banner)
+   ===================================================================== */
+.pagehero{position:relative;height:66vh;min-height:480px;display:flex;align-items:flex-end;
+  overflow:hidden;color:var(--white)}
+.pagehero__bg{position:absolute;inset:0;z-index:0}
+.pagehero__bg img{width:100%;height:100%;object-fit:cover;animation:kenburns 20s ease-out both}
+.pagehero__scrim{position:absolute;inset:0;z-index:1;
+  background:linear-gradient(0deg,rgba(13,11,8,.78) 0%,rgba(13,11,8,.12) 55%,rgba(13,11,8,.2) 100%)}
+.pagehero__inner{position:relative;z-index:2;width:100%;max-width:var(--maxw);margin-inline:auto;
+  padding:0 var(--gutter) clamp(2.6rem,5vw,4.2rem)}
+.pagehero .overline{color:#e6a079;display:block;margin-bottom:1rem}
+.pagehero__title{font-family:var(--serif);font-weight:300;color:var(--white);
+  font-size:clamp(2.8rem,8vw,6rem);line-height:1;letter-spacing:.01em}
+.pagehero__lead{margin-top:1.4rem;max-width:60ch;color:rgba(255,255,255,.88);
+  font-size:clamp(1.05rem,1.6vw,1.28rem);line-height:1.7}
+.pagehero__lead a{color:#e6a079;border-bottom:1px solid rgba(230,160,121,.5)}
+
+/* =====================================================================
+   BIGGER, MORE DYNAMIC GALLERIES
+   ===================================================================== */
+/* full-bleed band breaking out of .wrap */
+.bleed{width:100vw;margin-left:50%;transform:translateX(-50%)}
+.mosaic{display:grid;gap:clamp(.6rem,1vw,1rem);grid-template-columns:repeat(6,1fr)}
+.mosaic .gallery__item{box-shadow:none;border-radius:0}
+.mosaic .m-2{grid-column:span 2}.mosaic .m-3{grid-column:span 3}
+.mosaic .m-4{grid-column:span 4}.mosaic .m-6{grid-column:span 6}
+.mosaic .m-tall{aspect-ratio:3/4}.mosaic .m-wide{aspect-ratio:16/9}.mosaic .m-sq{aspect-ratio:1/1}
+
+@media (max-width:820px){
+  .mosaic{grid-template-columns:repeat(2,1fr)}
+  .mosaic .m-2,.mosaic .m-3,.mosaic .m-4,.mosaic .m-6{grid-column:span 1}
+  .mosaic .m-wide{aspect-ratio:4/3}
+  .panel{min-height:80vh}
+  .panel--right .panel__content{text-align:left;margin-left:0}
+  .panel--right .panel__content .link-arrow{justify-content:flex-start}
+  .panel--right .panel__scrim{background:linear-gradient(90deg,rgba(13,11,8,.82) 0%,rgba(13,11,8,.42) 40%,rgba(13,11,8,0) 72%),linear-gradient(0deg,rgba(13,11,8,.55),rgba(13,11,8,0) 48%)}
+}
+@media (prefers-reduced-motion:reduce){
+  .panel__bg img,.pagehero__bg img{animation:none}
+}

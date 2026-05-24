@@ -15,6 +15,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="css/pages.css">
+  <link rel="stylesheet" href="css/visual.css">
 </head>
 <body>
 
@@ -71,40 +72,39 @@
       </div>
     </section>
 
-    <!-- SERVICIOS -->
-    <section class="section svc">
-      <div class="wrap">
-        <div class="section__title reveal">
-          <span class="overline" data-i18n="services_label">Servicios</span>
-        </div>
-        <div class="svc-cards">
-          <a class="svc-card reveal" href="comercializacion.html">
-            <div class="svc-card__media"><span class="svc-card__idx">01</span><img src="assets/comercializacion/obra1.jpg" alt="Obra de la colección"></div>
-            <div class="svc-card__body">
-              <h3 class="svc-card__title" data-i18n="svc1_title">Comercialización</h3>
-              <p class="svc-card__text" data-i18n="svc1_text">Compra y venta de arte para distintos públicos y mercados. Desde jóvenes artistas con un gran potencial hasta artistas posicionados en el mercado. También, te ayudamos a vender tus obras. Para ver el catálogo diríjase a más información.</p>
-              <span class="link-arrow"><span data-i18n="more">Más información</span><span class="arw">&rarr;</span></span>
-            </div>
-          </a>
-          <a class="svc-card reveal" data-d="1" href="curadurias-avaluos.html">
-            <div class="svc-card__media"><span class="svc-card__idx">02</span><img src="assets/curadurias/cur3.jpg" alt="Feria de arte"></div>
-            <div class="svc-card__body">
-              <h3 class="svc-card__title" data-i18n="svc2_title">Curadurías &amp; Avalúos</h3>
-              <p class="svc-card__text" data-i18n="svc2_text">Organización y desarrollo de toda la producción de exposiciones de arte y subastas. Además, avaluos para saber la estimación del valor comercial de piezas de arte o colecciones.</p>
-              <span class="link-arrow"><span data-i18n="more">Más información</span><span class="arw">&rarr;</span></span>
-            </div>
-          </a>
-          <a class="svc-card reveal" data-d="2" href="representacion.html">
-            <div class="svc-card__media"><span class="svc-card__idx">03</span><img src="assets/representacion/rep1.jpg" alt="Obra representada"></div>
-            <div class="svc-card__body">
-              <h3 class="svc-card__title" data-i18n="svc3_title">Representación</h3>
-              <p class="svc-card__text" data-i18n="svc3_text">Creemos en los nuevos talentos, en jóvenes apasionados que se quieran sumergir en una vida llena de arte. Además, que ya tengan un sello personal que haga su obra diferenciable y unica.</p>
-              <span class="link-arrow"><span data-i18n="more">Más información</span><span class="arw">&rarr;</span></span>
-            </div>
-          </a>
-        </div>
-      </div>
-    </section>
+    <!-- FULL-BLEED SERVICE PANELS -->
+    <a class="panel" href="comercializacion.html">
+      <div class="panel__bg"><img src="assets/comercializacion/obra1.jpg" alt="Obra de la colección"></div>
+      <div class="panel__scrim"></div>
+      <div class="panel__inner"><div class="panel__content">
+        <span class="panel__num">01</span>
+        <h2 class="panel__title" data-i18n="svc1_title">Comercialización</h2>
+        <p class="panel__text" data-i18n="svc1_text">Compra y venta de arte para distintos públicos y mercados. Desde jóvenes artistas con un gran potencial hasta artistas posicionados en el mercado. También, te ayudamos a vender tus obras. Para ver el catálogo diríjase a más información.</p>
+        <span class="link-arrow"><span data-i18n="more">Más información</span><span class="arw">&rarr;</span></span>
+      </div></div>
+    </a>
+
+    <a class="panel panel--right" href="curadurias-avaluos.html">
+      <div class="panel__bg"><img src="assets/curadurias/cur3.jpg" alt="Feria de arte"></div>
+      <div class="panel__scrim"></div>
+      <div class="panel__inner"><div class="panel__content">
+        <span class="panel__num">02</span>
+        <h2 class="panel__title" data-i18n="svc2_title">Curadurías &amp; Avalúos</h2>
+        <p class="panel__text" data-i18n="svc2_text">Organización y desarrollo de toda la producción de exposiciones de arte y subastas. Además, avaluos para saber la estimación del valor comercial de piezas de arte o colecciones.</p>
+        <span class="link-arrow"><span data-i18n="more">Más información</span><span class="arw">&rarr;</span></span>
+      </div></div>
+    </a>
+
+    <a class="panel" href="representacion.html">
+      <div class="panel__bg"><img src="assets/featured.jpg" alt="Francisco Quintana con una obra"></div>
+      <div class="panel__scrim"></div>
+      <div class="panel__inner"><div class="panel__content">
+        <span class="panel__num">03</span>
+        <h2 class="panel__title" data-i18n="svc3_title">Representación</h2>
+        <p class="panel__text" data-i18n="svc3_text">Creemos en los nuevos talentos, en jóvenes apasionados que se quieran sumergir en una vida llena de arte. Además, que ya tengan un sello personal que haga su obra diferenciable y unica.</p>
+        <span class="link-arrow"><span data-i18n="more">Más información</span><span class="arw">&rarr;</span></span>
+      </div></div>
+    </a>
 
     <!-- CONTACTO -->
     <section class="section contact" id="contact">
