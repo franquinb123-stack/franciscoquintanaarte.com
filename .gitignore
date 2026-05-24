@@ -3,10 +3,21 @@ node_modules/
 package.json
 package-lock.json
 
-# capture / test artifacts (kept local only)
+# dev scripts (local only)
+shot.js
+shotall.js
+extract.js
+extract_en.js
+extract_rep.js
+build.js
+content.json
+content_en.json
+content_rep.json
+
+# captures / screenshots (local only)
 index_raw.html
 francisco_home.html
-shot.js
 shot_*.png
 *_shot.png
 redesign_full.png
+pg_*.png

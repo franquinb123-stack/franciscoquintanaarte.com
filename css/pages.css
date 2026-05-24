@@ -1,0 +1,136 @@
+/* =====================================================================
+   Francisco Quintana Art — multi-page components
+   (loads after styles.css; relies on its tokens)
+   ===================================================================== */
+
+/* ---- header solid on inner pages ---- */
+.page-inner .header{
+  background:rgba(244,241,234,.92);
+  backdrop-filter:saturate(140%) blur(14px);
+  -webkit-backdrop-filter:saturate(140%) blur(14px);
+  border-bottom-color:var(--line);
+}
+
+/* ---- service columns: titled + linked (home) ---- */
+.practice__col .practice__title a{transition:color .3s var(--ease)}
+.practice__col:hover .practice__title a{color:var(--accent)}
+
+/* representation feature on home keeps featured photo */
+.home-rep .feature__text{display:none}     /* no invented copy: image speaks */
+
+/* =====================================================================
+   HERO SLIDESHOW (home)
+   ===================================================================== */
+.hero__slides{position:absolute;inset:0}
+.hero__slides .hero__img{opacity:0;transition:opacity 1.6s var(--ease);z-index:0}
+.hero__slides .hero__img.active{opacity:1;z-index:1}
+.hero__dots{
+  position:absolute;right:var(--gutter);bottom:1.9rem;z-index:3;display:flex;gap:.6rem;
+}
+.hero__dots button{
+  width:30px;height:2px;background:rgba(255,255,255,.4);transition:background .4s var(--ease);
+}
+.hero__dots button.active{background:var(--white)}
+
+/* =====================================================================
+   PAGE HEAD (inner pages)
+   ===================================================================== */
+.pagehead{
+  padding-top:clamp(8rem,14vw,12rem);
+  padding-bottom:clamp(2.5rem,5vw,4rem);
+  border-bottom:1px solid var(--line);
+}
+.pagehead .overline{display:block;margin-bottom:1.1rem}
+.pagehead__title{font-size:clamp(2.4rem,7vw,5rem);font-weight:300;letter-spacing:.01em}
+.pagehead__lead{
+  margin-top:1.6rem;max-width:60ch;color:var(--ink-soft);
+  font-size:clamp(1.05rem,1.7vw,1.25rem);line-height:1.7;
+}
+.pagehead__lead a{color:var(--accent);border-bottom:1px solid var(--line);transition:.3s var(--ease)}
+.pagehead__lead a:hover{border-color:var(--accent)}
+
+/* =====================================================================
+   PROSE BLOCKS (curatorships / appraisals)
+   ===================================================================== */
+.block{
+  display:grid;grid-template-columns:minmax(0,7rem) 1fr;gap:clamp(1.5rem,4vw,4rem);
+  padding-block:clamp(2.6rem,5vw,4rem);border-top:1px solid var(--line);
+  align-items:start;
+}
+.block:first-of-type{border-top:none}
+.block__label{
+  font-size:.74rem;letter-spacing:.26em;text-transform:uppercase;color:var(--accent);
+  font-weight:600;padding-top:.5rem;
+}
+.block__body h2{font-size:clamp(1.6rem,3vw,2.4rem);font-weight:400;margin-bottom:1.1rem}
+.block__body p{color:var(--ink-soft);font-size:1.05rem;line-height:1.8;max-width:62ch}
+
+/* =====================================================================
+   ARTISTS LIST (commercialization)
+   ===================================================================== */
+.artists__head{margin-bottom:clamp(2rem,4vw,3rem)}
+.artists__grid{
+  columns:3;column-gap:clamp(2rem,5vw,5rem);
+  border-top:1px solid var(--line);padding-top:clamp(2rem,4vw,3rem);
+}
+.artists__grid li{
+  break-inside:avoid;list-style:none;padding:.55rem 0;
+  font-family:var(--serif);font-size:clamp(1.05rem,1.5vw,1.32rem);line-height:1.3;
+  color:var(--ink);border-bottom:1px solid var(--line-soft);
+}
+.artists__more{
+  margin-top:2.5rem;font-style:italic;color:var(--muted);font-family:var(--serif);
+  font-size:1.15rem;
+}
+
+/* =====================================================================
+   IMAGE GALLERIES (curatorships photos / media)
+   ===================================================================== */
+.gallery{
+  display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),1fr));
+  gap:clamp(.8rem,1.6vw,1.4rem);
+}
+.gallery--feature{grid-template-columns:repeat(12,1fr);grid-auto-rows:1fr}
+.gallery__item{
+  position:relative;overflow:hidden;background:var(--paper-2);aspect-ratio:4/3;
+}
+.gallery__item img{width:100%;height:100%;object-fit:cover;transition:transform 1.1s var(--ease)}
+.gallery__item:hover img{transform:scale(1.05)}
+/* feature spans */
+.gallery--feature .span6{grid-column:span 6}
+.gallery--feature .span4{grid-column:span 4}
+.gallery--feature .span8{grid-column:span 8}
+.gallery--feature .tall{aspect-ratio:3/4}
+
+/* =====================================================================
+   CLIENT / FAIR LOGOS
+   ===================================================================== */
+.logos{
+  display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));
+  gap:clamp(1.5rem,4vw,3.5rem);align-items:center;
+  border-top:1px solid var(--line);padding-top:clamp(2.5rem,5vw,4rem);
+}
+.logos img{
+  max-height:96px;width:auto;margin-inline:auto;
+  filter:grayscale(1);opacity:.78;transition:filter .5s var(--ease),opacity .5s var(--ease);
+}
+.logos img:hover{filter:grayscale(0);opacity:1}
+
+/* section heading shared */
+.section__title{font-size:clamp(1.8rem,3.6vw,2.8rem);font-weight:300;margin-bottom:clamp(2rem,4vw,3rem)}
+.section__title .overline{display:block;font-size:.72rem;margin-bottom:1rem}
+
+/* =====================================================================
+   RESPONSIVE
+   ===================================================================== */
+@media (max-width:900px){
+  .artists__grid{columns:2}
+  .block{grid-template-columns:1fr;gap:.8rem}
+  .block__label{padding-top:0}
+  .gallery--feature{grid-template-columns:repeat(6,1fr)}
+  .gallery--feature .span8,.gallery--feature .span6{grid-column:span 6}
+  .gallery--feature .span4{grid-column:span 3}
+}
+@media (max-width:560px){
+  .artists__grid{columns:1}
+}

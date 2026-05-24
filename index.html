@@ -1,14 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Francisco Quintana Art — Contemporary Latin-American Art · Bogotá</title>
-  <meta name="description" content="Francisco Quintana Art is a Bogotá-based gallery devoted to contemporary Latin-American art — commercialization, curatorship and appraisals, and artist representation.">
+  <title>Francisco Quintana Arte | Arte Contemporáneo Latinoamericano · Bogotá</title>
+  <meta name="description" content="Galería Francisco Quintana Arte — arte contemporáneo latinoamericano en Bogotá. Comercialización, curadurías y avalúos, y representación de artistas.">
   <meta name="theme-color" content="#16130f">
-
-  <meta property="og:title" content="Francisco Quintana Art — Contemporary Latin-American Art">
-  <meta property="og:description" content="A Bogotá gallery devoted to contemporary Latin-American art.">
+  <meta property="og:title" content="Francisco Quintana Arte — Arte Contemporáneo Latinoamericano">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://www.franciscoquintanarte.com/">
 
@@ -16,145 +14,106 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/pages.css">
 </head>
 <body>
 
-  <!-- ============================ HEADER ============================ -->
   <header class="header" id="header">
     <div class="wrap header__bar">
-      <a href="#top" class="brand" aria-label="Francisco Quintana Art — home">
+      <a href="index.html" class="brand" aria-label="Francisco Quintana Arte">
         <span class="brand__name">Francisco Quintana</span>
-        <span class="brand__sub">Art · Bogotá</span>
+        <span class="brand__sub" data-i18n="brand_sub">Arte</span>
       </a>
-
-      <nav class="nav" id="nav" aria-label="Primary">
-        <a class="nav__link" href="#practice" data-i18n="nav_commerce">Commercialization</a>
-        <a class="nav__link" href="#exhibitions" data-i18n="nav_curatories">Curatories &amp; Appraisals</a>
-        <a class="nav__link" href="#representation" data-i18n="nav_representation">Representation</a>
-        <a class="nav__link" href="#about" data-i18n="nav_about">About</a>
-        <a class="nav__link" href="#contact" data-i18n="nav_contact">Contact</a>
+      <nav class="nav" id="nav" aria-label="Principal">
+        <a class="nav__link" href="comercializacion.html" data-i18n="nav_comercializacion">Comercialización</a>
+        <a class="nav__link" href="curadurias-avaluos.html" data-i18n="nav_curadurias">Curadurías &amp; Avalúos</a>
+        <a class="nav__link" href="representacion.html" data-i18n="nav_representacion">Representación</a>
+        <a class="nav__link" href="quienes-somos.html" data-i18n="nav_quienes">Quiénes Somos</a>
+        <a class="nav__link" href="#contact" data-i18n="nav_contacto">Contacto</a>
       </nav>
-
       <div class="nav__tools">
-        <div class="lang" role="group" aria-label="Language">
-          <button type="button" data-lang="en" class="active">EN</button>
-          <span>/</span>
-          <button type="button" data-lang="es">ES</button>
+        <div class="lang" role="group" aria-label="Idioma">
+          <button type="button" data-lang="es" class="active">ES</button><span>/</span><button type="button" data-lang="en">EN</button>
         </div>
-        <button class="burger" id="burger" aria-label="Menu" aria-expanded="false">
-          <span></span><span></span><span></span>
-        </button>
+        <button class="burger" id="burger" aria-label="Menú" aria-expanded="false"><span></span><span></span><span></span></button>
       </div>
     </div>
   </header>
 
   <main id="top">
 
-    <!-- ============================ HERO ============================ -->
+    <!-- HERO SLIDESHOW -->
     <section class="hero">
-      <img class="hero__img" src="assets/hero_main.jpg" alt="Contemporary artwork on a gallery wall" fetchpriority="high">
+      <div class="hero__slides">
+        <img class="hero__img active" src="assets/hero_main.jpg" alt="Obra de arte en sala de galería" fetchpriority="high">
+        <img class="hero__img" src="assets/extra.jpg" alt="Inauguración de exposición" loading="lazy">
+      </div>
       <div class="hero__scrim"></div>
       <div class="hero__inner">
-        <p class="hero__eyebrow" data-i18n="hero_eyebrow">Gallery · Bogotá</p>
-        <h1 class="hero__title"><span data-i18n="hero_title_1">Contemporary</span> <em data-i18n="hero_title_2">Art</em></h1>
-        <p class="hero__sub" data-i18n="hero_sub">Latin&nbsp;American</p>
+        <h1 class="hero__title" data-i18n="hero_t1">Arte Contemporáneo</h1>
+        <p class="hero__sub" data-i18n="hero_t2">Latinoamericano</p>
       </div>
-      <a class="scrollcue" href="#intro" aria-label="Scroll">
-        <span class="bar"></span>
-      </a>
+      <div class="hero__dots" role="tablist" aria-label="Slides">
+        <button class="active" aria-label="1"></button>
+        <button aria-label="2"></button>
+      </div>
+      <a class="scrollcue" href="#practice" aria-label="Bajar"><span class="bar"></span></a>
     </section>
 
-    <!-- ============================ INTRO ============================ -->
-    <section class="section intro" id="intro">
-      <div class="wrap">
-        <span class="overline reveal" data-i18n="intro_overline">The Gallery</span>
-        <p class="intro__lede reveal" data-d="1">
-          <span data-i18n="intro_lede_a">Championing contemporary Latin-American art —</span>
-          <em data-i18n="intro_lede_b">from emerging voices to established names.</em>
-        </p>
-        <p class="intro__meta reveal" data-d="2" data-i18n="intro_meta">Commercialization · Curatorship · Appraisals · Representation</p>
-      </div>
-    </section>
-
-    <!-- ============================ PRACTICE ============================ -->
+    <!-- SERVICIOS -->
     <section class="section practice" id="practice">
       <div class="wrap">
-        <div class="practice__head">
-          <span class="overline reveal" data-i18n="practice_overline">What we do</span>
-          <h2 class="h-xl reveal" data-d="1" data-i18n="practice_title">A practice built around the work&nbsp;—<br>and the people behind it.</h2>
-        </div>
-
         <div class="practice__grid">
           <article class="practice__col reveal">
-            <span class="practice__num">01</span>
-            <h3 class="practice__title" data-i18n="svc1_title">Commercialization</h3>
-            <p class="practice__text" data-i18n="svc1_text">Buying and selling art for different audiences and markets. From young artists with great potential to artists positioned in the market. Also, we help you selling your artworks. To see the catalogue go to more information.</p>
-            <a class="link-arrow" href="#contact"><span data-i18n="more">More information</span><span class="arw">&rarr;</span></a>
+            <h3 class="practice__title"><a href="comercializacion.html" data-i18n="svc1_title">Comercialización</a></h3>
+            <p class="practice__text" data-i18n="svc1_text">Compra y venta de arte para distintos públicos y mercados. Desde jóvenes artistas con un gran potencial hasta artistas posicionados en el mercado. También, te ayudamos a vender tus obras. Para ver el catálogo diríjase a más información.</p>
+            <a class="link-arrow" href="comercializacion.html"><span data-i18n="more">Más información</span><span class="arw">&rarr;</span></a>
           </article>
-
           <article class="practice__col reveal" data-d="1">
-            <span class="practice__num">02</span>
-            <h3 class="practice__title" data-i18n="svc2_title">Curatories &amp; Appraisals</h3>
-            <p class="practice__text" data-i18n="svc2_text">Organization and development of all production of art exhibitions and auctions. In addition, appraisals to know the estimate of the commercial value of art pieces or collections.</p>
-            <a class="link-arrow" href="#exhibitions"><span data-i18n="more">More information</span><span class="arw">&rarr;</span></a>
+            <h3 class="practice__title"><a href="curadurias-avaluos.html" data-i18n="svc2_title">Curadurías &amp; Avalúos</a></h3>
+            <p class="practice__text" data-i18n="svc2_text">Organización y desarrollo de toda la producción de exposiciones de arte y subastas. Además, avaluos para saber la estimación del valor comercial de piezas de arte o colecciones.</p>
+            <a class="link-arrow" href="curadurias-avaluos.html"><span data-i18n="more">Más información</span><span class="arw">&rarr;</span></a>
           </article>
-
           <article class="practice__col reveal" data-d="2">
-            <span class="practice__num">03</span>
-            <h3 class="practice__title" data-i18n="svc3_title">Representation</h3>
-            <p class="practice__text" data-i18n="svc3_text">We believe in new talents, in passionate young people who want to immerse themselves in a life full of art. In addition, artist that have a personal aspect that makes their work differentiable and unique.</p>
-            <a class="link-arrow" href="#representation"><span data-i18n="more">More information</span><span class="arw">&rarr;</span></a>
+            <h3 class="practice__title"><a href="representacion.html" data-i18n="svc3_title">Representación</a></h3>
+            <p class="practice__text" data-i18n="svc3_text">Creemos en los nuevos talentos, en jóvenes apasionados que se quieran sumergir en una vida llena de arte. Además, que ya tengan un sello personal que haga su obra diferenciable y unica.</p>
+            <a class="link-arrow" href="representacion.html"><span data-i18n="more">Más información</span><span class="arw">&rarr;</span></a>
           </article>
         </div>
       </div>
     </section>
 
-    <!-- ===================== EXHIBITIONS FEATURE ===================== -->
-    <section class="feature" id="exhibitions">
+    <!-- IMAGEN REPRESENTACIÓN -->
+    <a class="feature" href="representacion.html" id="representacion-band" style="text-decoration:none">
       <div class="feature__media">
-        <img src="assets/extra.jpg" alt="Visitors at a gallery exhibition opening" loading="lazy">
+        <img src="assets/featured.jpg" alt="Francisco Quintana presentando una obra" loading="lazy">
       </div>
       <div class="feature__body feature--dark">
-        <span class="overline feature__kicker reveal" data-i18n="exh_kicker">Exhibitions &amp; Auctions</span>
-        <h2 class="h-lg feature__title reveal" data-d="1" data-i18n="exh_title">Where the work meets its audience.</h2>
-        <p class="feature__text reveal" data-d="2" data-i18n="exh_text">From the first studio visit to the night of the opening, we produce art exhibitions and auctions end to end — and appraise pieces and collections so their commercial value is understood with clarity.</p>
-        <a class="link-arrow reveal" data-d="2" href="#contact"><span data-i18n="exh_cta">View programme</span><span class="arw">&rarr;</span></a>
+        <span class="overline feature__kicker reveal" data-i18n="nav_representacion">Representación</span>
+        <h2 class="h-lg feature__title reveal" data-d="1" data-i18n="hero_t1">Arte Contemporáneo</h2>
+        <span class="link-arrow reveal" data-d="2"><span data-i18n="more">Más información</span><span class="arw">&rarr;</span></span>
       </div>
-    </section>
+    </a>
 
-    <!-- ===================== REPRESENTATION / ABOUT ===================== -->
-    <section class="feature feature--flip" id="representation">
-      <div class="feature__body">
-        <span class="overline feature__kicker reveal" id="about" data-i18n="rep_kicker">Representation</span>
-        <h2 class="h-lg feature__title reveal" data-d="1" data-i18n="rep_title">Backing artists with a voice of their own.</h2>
-        <p class="feature__text reveal" data-d="2" data-i18n="rep_text">We believe in new talents — passionate young people who want to immerse themselves in a life full of art, and artists whose personal vision makes their work unmistakably their own. We stand beside them, from the studio to the collection.</p>
-        <a class="link-arrow reveal" data-d="2" href="#contact"><span data-i18n="rep_cta">Work with us</span><span class="arw">&rarr;</span></a>
-      </div>
-      <div class="feature__media">
-        <img src="assets/featured.jpg" alt="Francisco Quintana presenting an artwork" loading="lazy">
-      </div>
-    </section>
-
-    <!-- ============================ CONTACT ============================ -->
+    <!-- CONTACTO -->
     <section class="section contact" id="contact">
       <div class="wrap">
         <div class="contact__head">
-          <span class="overline reveal" data-i18n="contact_overline">Get in touch</span>
-          <h2 class="h-xl reveal" data-d="1" data-i18n="contact_title">Contact us</h2>
+          <span class="overline reveal" data-i18n="contact_overline">Contáctenos</span>
+          <h2 class="h-xl reveal" data-d="1" data-i18n="contact_title">Contáctenos</h2>
         </div>
-
         <div class="contact__grid">
           <div class="info reveal">
             <div class="info__row">
-              <div class="info__label" data-i18n="label_studio">Gallery</div>
+              <div class="info__label" data-i18n="label_addr">Dirección</div>
               <div class="info__val">Cra 16 #86b-31, Oficina 101<br>Bogotá, Colombia</div>
             </div>
             <div class="info__row">
-              <div class="info__label" data-i18n="label_email">Email</div>
+              <div class="info__label" data-i18n="label_email">Correo</div>
               <div class="info__val"><a href="mailto:Quico20042003@yahoo.es">Quico20042003@yahoo.es</a></div>
             </div>
             <div class="info__row">
-              <div class="info__label" data-i18n="label_phone">Phone</div>
+              <div class="info__label" data-i18n="label_phone">Teléfono</div>
               <div class="info__val"><a href="tel:+573102399078">+57 310 239 9078</a></div>
             </div>
             <div class="socials">
@@ -162,61 +121,41 @@
               <a href="https://www.facebook.com/FranciscoQuintanaArte" target="_blank" rel="noopener">Facebook</a>
             </div>
           </div>
-
           <form class="form reveal" data-d="1" id="contactForm">
             <div class="form__row">
-              <div class="field">
-                <input type="text" id="f-name" name="name" placeholder=" " required>
-                <label for="f-name" data-i18n="form_name">Name</label>
-              </div>
-              <div class="field">
-                <input type="email" id="f-email" name="email" placeholder=" " required>
-                <label for="f-email" data-i18n="form_email">Email</label>
-              </div>
+              <div class="field"><input type="text" id="f-name" name="name" placeholder=" " required><label for="f-name" data-i18n="form_name">Nombre</label></div>
+              <div class="field"><input type="email" id="f-email" name="email" placeholder=" " required><label for="f-email" data-i18n="form_email">Correo</label></div>
             </div>
-            <div class="field">
-              <input type="text" id="f-subject" name="subject" placeholder=" ">
-              <label for="f-subject" data-i18n="form_subject">Subject</label>
-            </div>
-            <div class="field">
-              <textarea id="f-message" name="message" rows="4" placeholder=" " required></textarea>
-              <label for="f-message" data-i18n="form_message">Message</label>
-            </div>
-            <button class="btn" type="submit"><span data-i18n="form_send">Send message</span><span class="arw">&rarr;</span></button>
+            <div class="field"><input type="text" id="f-subject" name="subject" placeholder=" "><label for="f-subject" data-i18n="form_subject">Asunto</label></div>
+            <div class="field"><textarea id="f-message" name="message" rows="4" placeholder=" " required></textarea><label for="f-message" data-i18n="form_message">Mensaje</label></div>
+            <button class="btn" type="submit"><span data-i18n="form_send">Enviar</span><span class="arw">&rarr;</span></button>
             <p class="form__note" id="formNote" hidden></p>
           </form>
         </div>
-
         <div class="map reveal">
-          <iframe
-            title="Gallery location map"
-            loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
+          <iframe title="Ubicación de la galería" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
             src="https://maps.google.com/maps?q=Carrera%2016%20%2386b-31%20Bogot%C3%A1%20Colombia&z=15&output=embed"></iframe>
         </div>
       </div>
     </section>
   </main>
 
-  <!-- ============================ FOOTER ============================ -->
   <footer class="footer">
     <div class="wrap">
       <div class="footer__top">
-        <a href="#top" class="brand">
-          <span class="brand__name">Francisco Quintana</span>
-          <span class="brand__sub">Art · Bogotá</span>
-        </a>
-        <p class="footer__addr">Cra 16 #86b-31, Oficina 101 · Bogotá, Colombia<br>Quico20042003@yahoo.es · +57 310 239 9078</p>
+        <a href="index.html" class="brand"><span class="brand__name">Francisco Quintana</span><span class="brand__sub" data-i18n="brand_sub">Arte</span></a>
+        <p class="footer__addr">Cra 16 #86b-31, Oficina 101 · Bogotá, Colombia<br>Quico20042003@yahoo.es · Tel: +57-310-239-9078</p>
         <nav class="footer__links" aria-label="Footer">
-          <a href="#practice" data-i18n="nav_commerce">Commercialization</a>
-          <a href="#exhibitions" data-i18n="nav_curatories">Curatories &amp; Appraisals</a>
-          <a href="#representation" data-i18n="nav_representation">Representation</a>
-          <a href="#contact" data-i18n="nav_contact">Contact</a>
+          <a href="comercializacion.html" data-i18n="nav_comercializacion">Comercialización</a>
+          <a href="curadurias-avaluos.html" data-i18n="nav_curadurias">Curadurías &amp; Avalúos</a>
+          <a href="representacion.html" data-i18n="nav_representacion">Representación</a>
+          <a href="quienes-somos.html" data-i18n="nav_quienes">Quiénes Somos</a>
+          <a href="#contact" data-i18n="nav_contacto">Contacto</a>
         </nav>
       </div>
       <div class="footer__bottom">
-        <span>&copy; <span id="year">2026</span> Francisco Quintana Art</span>
-        <span data-i18n="footer_tag">Contemporary Latin-American Art</span>
+        <span data-i18n="foot_copy">© 2020 Francisco Quintana Arte</span>
+        <span>Bogotá · Colombia</span>
       </div>
     </div>
   </footer>
