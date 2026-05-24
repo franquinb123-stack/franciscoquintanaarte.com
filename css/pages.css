@@ -103,6 +103,7 @@
 
 /* section title (overline + heading) */
 .section__title{margin-bottom:clamp(2.2rem,4vw,3.2rem)}
+.section__title:has(+ .artists__grid){margin-bottom:clamp(.5rem,1.5vw,1rem)}
 .section__title .overline{display:block;margin-bottom:.9rem}
 .section__title h2{font-size:clamp(1.9rem,4vw,3rem);font-weight:300}
 
