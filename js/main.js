@@ -107,7 +107,7 @@
       com_lead: 'Para más información sobre nuestras obras y portafolio, o sobre la venta de una obra, visítanos en nuestras redes sociales o contáctanos.',
       com_intro: 'Para mayor información sobre obras y nuestro portafolio, visítanos en Instagram en <a href="https://www.instagram.com/franciscoquintanaarte/" target="_blank" rel="noopener">Franciscoquintanarte</a> y contáctate con nosotros.',
       com_artists: 'Artistas',
-      com_more: 'entre otros',
+      com_more: 'entre otros...',
 
       /* curadurías */
       cur_title: 'Servicios',
@@ -174,7 +174,7 @@
       com_lead: 'For more information about our works and portfolio, or about selling a piece, visit us on our social media or get in touch.',
       com_intro: 'For more information about artworks and our portfolio, please visit us on Instagram at <a href="https://www.instagram.com/franciscoquintanaarte/" target="_blank" rel="noopener">Franciscoquintanarte</a> and contact us.',
       com_artists: 'Artists',
-      com_more: 'among others',
+      com_more: 'among others...',
 
       cur_title: 'Services',
       cur_h1: 'Curatorships',
