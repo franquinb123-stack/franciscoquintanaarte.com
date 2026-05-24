@@ -1,5 +1,12 @@
+# tooling & local artifacts
 node_modules/
 package.json
 package-lock.json
+
+# capture / test artifacts (kept local only)
 index_raw.html
+francisco_home.html
+shot.js
+shot_*.png
 *_shot.png
+redesign_full.png
