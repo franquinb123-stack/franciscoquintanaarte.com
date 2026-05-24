@@ -133,7 +133,7 @@ body.menu-open .burger span{background:var(--ink)}
 .brand__accent{color:var(--accent)}
 
 .nav{display:flex;align-items:center;gap:clamp(1.4rem,2.5vw,2.7rem)}
-.nav__link{font-size:.78rem;letter-spacing:.16em;text-transform:uppercase;font-weight:500;
+.nav__link{font-size:.78rem;letter-spacing:.16em;text-transform:uppercase;font-weight:500;white-space:nowrap;
   color:var(--ink-soft);position:relative;padding:.4em 0;transition:color .35s var(--ease)}
 .nav__link::after{content:"";position:absolute;left:0;bottom:0;height:1px;width:100%;
   background:var(--accent);transform:scaleX(0);transform-origin:left;transition:transform .4s var(--ease)}

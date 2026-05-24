@@ -68,7 +68,7 @@
     es: {
       brand_sub: 'Arte',
       nav_comercializacion: 'Comercialización',
-      nav_curadurias: 'Curadurías & Avalúos',
+      nav_curadurias: 'Avalúos',
       nav_representacion: 'Representación',
       nav_quienes: 'Quiénes Somos',
       nav_contacto: 'Contacto',
@@ -85,7 +85,7 @@
 
       svc1_title: 'Comercialización',
       svc1_text: 'Compra y venta de arte para distintos públicos y mercados. Desde jóvenes artistas con un gran potencial hasta artistas posicionados en el mercado. También, te ayudamos a vender tus obras. Para ver el catálogo diríjase a más información.',
-      svc2_title: 'Curadurías & Avalúos',
+      svc2_title: 'Avalúos',
       svc2_text: 'Organización y desarrollo de toda la producción de exposiciones de arte y subastas. Además, avaluos para saber la estimación del valor comercial de piezas de arte o colecciones.',
       svc3_title: 'Representación',
       svc3_text: 'Creemos en los nuevos talentos, en jóvenes apasionados que se quieran sumergir en una vida llena de arte. Además, que ya tengan un sello personal que haga su obra diferenciable y unica.',
@@ -109,7 +109,7 @@
       com_more: 'entre otros',
 
       /* curadurías */
-      cur_title: 'Curadurías & Avalúos',
+      cur_title: 'Avalúos',
       cur_h1: 'Curadurías',
       cur_p1: 'Exposición, valuación, manejo, preservación y administración de bienes artísticos para crear una conexión entre las piezas para crear algo más grande que la suma de las piezas individuales. La conexión de las piezas con un contexto crea una historia, que es como la gente al final va a recordar el conjunto.',
       cur_h2: 'Avalúos',
@@ -135,7 +135,7 @@
     en: {
       brand_sub: 'Art',
       nav_comercializacion: 'Commercialization',
-      nav_curadurias: 'Curatories & Appraisals',
+      nav_curadurias: 'Appraisals',
       nav_representacion: 'Representation',
       nav_quienes: 'About us',
       nav_contacto: 'Contact',
@@ -152,7 +152,7 @@
 
       svc1_title: 'Commercialization',
       svc1_text: 'Buying and selling art for different audiences and markets. From young artists with great potential to artists positioned in the market. Also, we help you selling your artworks. To see the catalogue go to more information.',
-      svc2_title: 'Curatories & Appraisals',
+      svc2_title: 'Appraisals',
       svc2_text: 'Organization and development of all production of art exhibitions and auctions. In addition, appraisals to know the estimate of the commercial value of art pieces or collections.',
       svc3_title: 'Representation',
       svc3_text: 'We believe in new talents, in passionate young people who want to immerse themselves in a life full of art. In addition, artist that have a personal aspect that makes their work differentiable and unique.',
@@ -174,7 +174,7 @@
       com_artists: 'Artists',
       com_more: 'among others',
 
-      cur_title: 'Curatories & Appraisals',
+      cur_title: 'Appraisals',
       cur_h1: 'Curatorships',
       cur_p1: 'Exhibition, valuation, management, preservation and administration of artistic assets to create a connection between the pieces, to produce something greater than the sum of the individual pieces. The connection of the pieces with a context creates a story, which is how people in the end will remember the set.',
       cur_h2: 'Appraisals',
