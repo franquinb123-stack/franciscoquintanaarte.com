@@ -68,7 +68,7 @@
     es: {
       brand_sub: 'Arte',
       nav_comercializacion: 'Comercialización',
-      nav_curadurias: 'Avalúos',
+      nav_curadurias: 'Servicios',
       nav_representacion: 'Representación',
       nav_quienes: 'Quiénes Somos',
       nav_contacto: 'Contacto',
@@ -85,7 +85,7 @@
 
       svc1_title: 'Comercialización',
       svc1_text: 'Compra y venta de arte para distintos públicos y mercados, desde jóvenes talentos con gran proyección hasta artistas consolidados. También te acompañamos en la venta de tu colección.',
-      svc2_title: 'Avalúos',
+      svc2_title: 'Servicios',
       svc2_text: 'Producción integral de exposiciones y subastas de arte, de principio a fin. Realizamos avalúos para conocer el valor comercial de piezas individuales o colecciones completas.',
       svc3_title: 'Representación',
       svc3_text: 'Creemos en los nuevos talentos: jóvenes apasionados por el arte, con un sello propio que hace su obra única e inconfundible. Los acompañamos en cada etapa de su carrera.',
@@ -109,7 +109,7 @@
       com_more: 'entre otros',
 
       /* curadurías */
-      cur_title: 'Avalúos',
+      cur_title: 'Servicios',
       cur_h1: 'Curadurías',
       cur_p1: 'Exposición, valuación, manejo, preservación y administración de bienes artísticos para crear una conexión entre las piezas para crear algo más grande que la suma de las piezas individuales. La conexión de las piezas con un contexto crea una historia, que es como la gente al final va a recordar el conjunto.',
       cur_h2: 'Avalúos',
@@ -135,7 +135,7 @@
     en: {
       brand_sub: 'Art',
       nav_comercializacion: 'Commercialization',
-      nav_curadurias: 'Appraisals',
+      nav_curadurias: 'Services',
       nav_representacion: 'Representation',
       nav_quienes: 'About us',
       nav_contacto: 'Contact',
@@ -152,7 +152,7 @@
 
       svc1_title: 'Commercialization',
       svc1_text: 'Buying and selling art across audiences and markets — from emerging talents with great promise to established names. We also guide you through selling your own collection.',
-      svc2_title: 'Appraisals',
+      svc2_title: 'Services',
       svc2_text: 'End-to-end production of art exhibitions and auctions. We also appraise individual pieces and entire collections to establish their commercial value.',
       svc3_title: 'Representation',
       svc3_text: 'We believe in new talent — passionate young artists with a personal voice that makes their work unmistakably their own. We stand by them at every stage of their careers.',
@@ -174,7 +174,7 @@
       com_artists: 'Artists',
       com_more: 'among others',
 
-      cur_title: 'Appraisals',
+      cur_title: 'Services',
       cur_h1: 'Curatorships',
       cur_p1: 'Exhibition, valuation, management, preservation and administration of artistic assets to create a connection between the pieces, to produce something greater than the sum of the individual pieces. The connection of the pieces with a context creates a story, which is how people in the end will remember the set.',
       cur_h2: 'Appraisals',
