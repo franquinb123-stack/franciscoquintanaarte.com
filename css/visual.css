@@ -30,8 +30,8 @@
 .panel__num{display:block;font-family:var(--serif);font-size:1rem;letter-spacing:.25em;opacity:.75;margin-bottom:.8rem}
 .panel__kicker{display:block;font-size:.74rem;letter-spacing:.34em;text-transform:uppercase;
   font-weight:600;color:#ff4136;margin-bottom:1rem}
-.panel__title{font-family:var(--serif);font-weight:300;line-height:1;
-  font-size:clamp(2.6rem,6.5vw,5.4rem);margin-bottom:1.3rem;letter-spacing:.01em}
+.panel__title{font-family:var(--serif);font-weight:300;line-height:1.04;
+  font-size:clamp(2.2rem,5vw,4.4rem);margin-bottom:1.3rem;letter-spacing:.01em}
 .panel__text{color:rgba(255,255,255,.86);font-size:clamp(1rem,1.4vw,1.12rem);line-height:1.74;margin-bottom:2rem}
 .panel .link-arrow{color:var(--white)}
 .panel .link-arrow:hover{color:#ff4136}
