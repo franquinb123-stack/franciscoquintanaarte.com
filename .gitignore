@@ -21,3 +21,7 @@ shot_*.png
 *_shot.png
 redesign_full.png
 pg_*.png
+
+# more local artifacts
+shotcur.js
+contact_sheet.png

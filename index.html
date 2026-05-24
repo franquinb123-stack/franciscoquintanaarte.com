@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Francisco Quintana Arte | Arte Contemporáneo Latinoamericano · Bogotá</title>
   <meta name="description" content="Galería Francisco Quintana Arte — arte contemporáneo latinoamericano en Bogotá. Comercialización, curadurías y avalúos, y representación de artistas.">
-  <meta name="theme-color" content="#16130f">
+  <meta name="theme-color" content="#15120d">
   <meta property="og:title" content="Francisco Quintana Arte — Arte Contemporáneo Latinoamericano">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://www.franciscoquintanarte.com/">
@@ -42,58 +42,69 @@
 
   <main id="top">
 
-    <!-- HERO SLIDESHOW -->
+    <!-- HERO -->
     <section class="hero">
       <div class="hero__slides">
         <img class="hero__img active" src="assets/hero_main.jpg" alt="Obra de arte en sala de galería" fetchpriority="high">
-        <img class="hero__img" src="assets/extra.jpg" alt="Inauguración de exposición" loading="lazy">
+        <img class="hero__img" src="assets/extra.jpg" alt="Inauguración de exposición">
       </div>
       <div class="hero__scrim"></div>
       <div class="hero__inner">
+        <p class="hero__eyebrow" data-i18n="hero_eyebrow">Galería · Bogotá, Colombia</p>
         <h1 class="hero__title" data-i18n="hero_t1">Arte Contemporáneo</h1>
         <p class="hero__sub" data-i18n="hero_t2">Latinoamericano</p>
       </div>
       <div class="hero__dots" role="tablist" aria-label="Slides">
-        <button class="active" aria-label="1"></button>
-        <button aria-label="2"></button>
+        <button class="active" aria-label="1"></button><button aria-label="2"></button>
       </div>
-      <a class="scrollcue" href="#practice" aria-label="Bajar"><span class="bar"></span></a>
+      <a class="scrollcue" href="#intro" aria-label="Bajar"><span class="bar"></span></a>
+    </section>
+
+    <!-- INTRO STRIP -->
+    <section class="introbar" id="intro">
+      <div class="wrap introbar__grid">
+        <div>
+          <span class="overline" data-i18n="intro_overline">La Galería</span>
+          <p class="introbar__statement"><span data-i18n="intro_statement">Enfocada en el arte</span> <em data-i18n="intro_statement_em">latinoamericano contemporáneo.</em></p>
+        </div>
+        <p class="introbar__meta" data-i18n="intro_meta">Bogotá · Colombia</p>
+      </div>
     </section>
 
     <!-- SERVICIOS -->
-    <section class="section practice" id="practice">
+    <section class="section svc">
       <div class="wrap">
-        <div class="practice__grid">
-          <article class="practice__col reveal">
-            <h3 class="practice__title"><a href="comercializacion.html" data-i18n="svc1_title">Comercialización</a></h3>
-            <p class="practice__text" data-i18n="svc1_text">Compra y venta de arte para distintos públicos y mercados. Desde jóvenes artistas con un gran potencial hasta artistas posicionados en el mercado. También, te ayudamos a vender tus obras. Para ver el catálogo diríjase a más información.</p>
-            <a class="link-arrow" href="comercializacion.html"><span data-i18n="more">Más información</span><span class="arw">&rarr;</span></a>
-          </article>
-          <article class="practice__col reveal" data-d="1">
-            <h3 class="practice__title"><a href="curadurias-avaluos.html" data-i18n="svc2_title">Curadurías &amp; Avalúos</a></h3>
-            <p class="practice__text" data-i18n="svc2_text">Organización y desarrollo de toda la producción de exposiciones de arte y subastas. Además, avaluos para saber la estimación del valor comercial de piezas de arte o colecciones.</p>
-            <a class="link-arrow" href="curadurias-avaluos.html"><span data-i18n="more">Más información</span><span class="arw">&rarr;</span></a>
-          </article>
-          <article class="practice__col reveal" data-d="2">
-            <h3 class="practice__title"><a href="representacion.html" data-i18n="svc3_title">Representación</a></h3>
-            <p class="practice__text" data-i18n="svc3_text">Creemos en los nuevos talentos, en jóvenes apasionados que se quieran sumergir en una vida llena de arte. Además, que ya tengan un sello personal que haga su obra diferenciable y unica.</p>
-            <a class="link-arrow" href="representacion.html"><span data-i18n="more">Más información</span><span class="arw">&rarr;</span></a>
-          </article>
+        <div class="section__title reveal">
+          <span class="overline" data-i18n="services_label">Servicios</span>
+        </div>
+        <div class="svc-cards">
+          <a class="svc-card reveal" href="comercializacion.html">
+            <div class="svc-card__media"><span class="svc-card__idx">01</span><img src="assets/comercializacion/obra1.jpg" alt="Obra de la colección"></div>
+            <div class="svc-card__body">
+              <h3 class="svc-card__title" data-i18n="svc1_title">Comercialización</h3>
+              <p class="svc-card__text" data-i18n="svc1_text">Compra y venta de arte para distintos públicos y mercados. Desde jóvenes artistas con un gran potencial hasta artistas posicionados en el mercado. También, te ayudamos a vender tus obras. Para ver el catálogo diríjase a más información.</p>
+              <span class="link-arrow"><span data-i18n="more">Más información</span><span class="arw">&rarr;</span></span>
+            </div>
+          </a>
+          <a class="svc-card reveal" data-d="1" href="curadurias-avaluos.html">
+            <div class="svc-card__media"><span class="svc-card__idx">02</span><img src="assets/curadurias/cur3.jpg" alt="Feria de arte"></div>
+            <div class="svc-card__body">
+              <h3 class="svc-card__title" data-i18n="svc2_title">Curadurías &amp; Avalúos</h3>
+              <p class="svc-card__text" data-i18n="svc2_text">Organización y desarrollo de toda la producción de exposiciones de arte y subastas. Además, avaluos para saber la estimación del valor comercial de piezas de arte o colecciones.</p>
+              <span class="link-arrow"><span data-i18n="more">Más información</span><span class="arw">&rarr;</span></span>
+            </div>
+          </a>
+          <a class="svc-card reveal" data-d="2" href="representacion.html">
+            <div class="svc-card__media"><span class="svc-card__idx">03</span><img src="assets/representacion/rep1.jpg" alt="Obra representada"></div>
+            <div class="svc-card__body">
+              <h3 class="svc-card__title" data-i18n="svc3_title">Representación</h3>
+              <p class="svc-card__text" data-i18n="svc3_text">Creemos en los nuevos talentos, en jóvenes apasionados que se quieran sumergir en una vida llena de arte. Además, que ya tengan un sello personal que haga su obra diferenciable y unica.</p>
+              <span class="link-arrow"><span data-i18n="more">Más información</span><span class="arw">&rarr;</span></span>
+            </div>
+          </a>
         </div>
       </div>
     </section>
-
-    <!-- IMAGEN REPRESENTACIÓN -->
-    <a class="feature" href="representacion.html" id="representacion-band" style="text-decoration:none">
-      <div class="feature__media">
-        <img src="assets/featured.jpg" alt="Francisco Quintana presentando una obra" loading="lazy">
-      </div>
-      <div class="feature__body feature--dark">
-        <span class="overline feature__kicker reveal" data-i18n="nav_representacion">Representación</span>
-        <h2 class="h-lg feature__title reveal" data-d="1" data-i18n="hero_t1">Arte Contemporáneo</h2>
-        <span class="link-arrow reveal" data-d="2"><span data-i18n="more">Más información</span><span class="arw">&rarr;</span></span>
-      </div>
-    </a>
 
     <!-- CONTACTO -->
     <section class="section contact" id="contact">

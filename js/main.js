@@ -73,8 +73,15 @@
       nav_quienes: 'Quiénes Somos',
       nav_contacto: 'Contacto',
 
+      hero_eyebrow: 'Galería · Bogotá, Colombia',
       hero_t1: 'Arte Contemporáneo',
       hero_t2: 'Latinoamericano',
+
+      intro_overline: 'La Galería',
+      intro_statement: 'Enfocada en el arte',
+      intro_statement_em: 'latinoamericano contemporáneo.',
+      intro_meta: 'Bogotá · Colombia',
+      services_label: 'Servicios',
 
       svc1_title: 'Comercialización',
       svc1_text: 'Compra y venta de arte para distintos públicos y mercados. Desde jóvenes artistas con un gran potencial hasta artistas posicionados en el mercado. También, te ayudamos a vender tus obras. Para ver el catálogo diríjase a más información.',
@@ -133,8 +140,15 @@
       nav_quienes: 'About us',
       nav_contacto: 'Contact',
 
+      hero_eyebrow: 'Gallery · Bogotá, Colombia',
       hero_t1: 'Contemporary Art',
       hero_t2: 'Latin-American',
+
+      intro_overline: 'The Gallery',
+      intro_statement: 'Focused on',
+      intro_statement_em: 'contemporary Latin-American art.',
+      intro_meta: 'Bogotá · Colombia',
+      services_label: 'Services',
 
       svc1_title: 'Commercialization',
       svc1_text: 'Buying and selling art for different audiences and markets. From young artists with great potential to artists positioned in the market. Also, we help you selling your artworks. To see the catalogue go to more information.',
