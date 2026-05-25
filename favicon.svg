@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Francisco Quintana Arte">
+  <rect width="64" height="64" rx="13" fill="#15120d"/>
+  <defs>
+    <clipPath id="cv"><rect x="15" y="12" width="34" height="40" rx="2"/></clipPath>
+  </defs>
+  <rect x="15" y="12" width="34" height="40" rx="2" fill="#f3eee4"/>
+  <g clip-path="url(#cv)">
+    <path d="M20 43 C24 27 31 35 34 23 C36 16 41 15 45 18" fill="none" stroke="#d61f1f" stroke-width="5.5" stroke-linecap="round"/>
+    <path d="M21 46 C28 40 35 45 44 37" fill="none" stroke="#1c160f" stroke-width="3" stroke-linecap="round" opacity="0.85"/>
+  </g>
+  <rect x="15" y="12" width="34" height="40" rx="2" fill="none" stroke="#0d0b07" stroke-width="2.5"/>
+</svg>
