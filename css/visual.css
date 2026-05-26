@@ -73,7 +73,11 @@
   .panel{min-height:80vh}
   .panel--right .panel__content{text-align:left;margin-left:0}
   .panel--right .panel__content .link-arrow{justify-content:flex-start}
-  .panel--right .panel__scrim{background:linear-gradient(90deg,rgba(13,11,8,.82) 0%,rgba(13,11,8,.42) 40%,rgba(13,11,8,0) 72%),linear-gradient(0deg,rgba(13,11,8,.55),rgba(13,11,8,0) 48%)}
+  /* on phones the text spans the full width, so the desktop left-to-right
+     scrim leaves its right half over a bright image and unreadable.
+     Use a full-width bottom-up gradient that darkens behind all the text. */
+  .panel__scrim,.panel--right .panel__scrim{
+    background:linear-gradient(0deg,rgba(13,11,8,.92) 0%,rgba(13,11,8,.82) 28%,rgba(13,11,8,.45) 58%,rgba(13,11,8,0) 88%)}
 }
 @media (prefers-reduced-motion:reduce){
   .panel__bg img,.pagehero__bg img{animation:none}
